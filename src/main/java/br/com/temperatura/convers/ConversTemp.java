@@ -48,8 +48,8 @@ public class ConversTemp{
     public void celsiusParaFahrenheit(){
         double tempCelsius, tempFahrenheit;
 
-        tempCelsius = this.getTemp().getTemperatura();
-        tempFahrenheit = (1.8 * tempCelsius) + 32.0;
+       // tempCelsius = this.getTemp().getTemperatura();
+       // tempFahrenheit = (1.8 * tempCelsius) + 32.0;
 
         this.getTemp().setEscala('F');
         this.getTemp().setTemperatura(tempFahrenheit);
