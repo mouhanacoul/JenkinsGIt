@@ -11,7 +11,7 @@ public class ConversorTest {
     private ConversTemp conversorTest = new ConversTemp('C', 10);
 
     public static final char ESCALA_TEST = 'K';
-    public static final double TEMP_KELVIN_TEST = 283.0;
+    public static final double TEMP_KELVIN_TEST = 10.0;
 
     @Test
     public void testeConvertendoDeCelsiusParaKelvin() {
